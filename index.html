@@ -4,12 +4,45 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+	<title>Formulários</title>
 		<!-- CSS -->
 		<link href="public/css/bootstrap.min.css" rel="stylesheet">
 	
 </head>
 <body>
+
+		<div class="container">
+			<h1>Formulários</h1>
+			<form>
+				<div class="row">
+						<div class="col">
+				<div class="form-group">
+							<label for="">Digite o nome do usuário</label>
+							<input type="text" class="form-control form-control-lg" placeholder="Digite um texto aqui">
+			</div>
+		</div> <!-- col -->
+		<div class="col">
+			<div class="form-goup">
+							<label for="">Digite a Senha</label>
+							<input type="password" class="form-control form-control-lg">
+			</div>
+		</div> <!-- col -->
+		</div>	<!-- row -->
+					<!-- <input type="file" class="form-control"> -->
+
+				<div class="form-group">
+						<input type="range" class="form-control-range">
+						<input type="checkbox" class="form-check-input">
+						<label for="">Clique aqui</label>
+				</div> <!-- form-group -->
+
+				<input type="submit" name="enviar" value="Enviar" class="btn btn-secondary btn-block">
+			</form>
+		</div>
 	
+
+		<!-- JS -->
+		<script src="public/js/jquery.js"></script>
+		<script src="public/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
